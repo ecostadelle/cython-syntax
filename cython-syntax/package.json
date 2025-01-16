@@ -33,5 +33,6 @@
 	},
 	"keywords": ["cython", "syntax", "highlighting", "python"],
 	"author": "Ewerton Luiz Costadelle",
-	"license": "MIT"
+	"license": "MIT",
+	"icon": "icon.png"
 }
