@@ -1,28 +1,25 @@
 {
-	"name": "cython",
-	"displayName": "Cython",
-	"description": "Cython syntax highlighting - based on Peter Varo's textmate theme",
-	"version": "0.1.0",
-	"publisher": "tcwalther",
+	"name": "cython-syntax-fixed",
+	"displayName": "Cython Syntax Highlighting Fixed",
+	"description": "An updated version of the Cython syntax highlighting extension with bug fixes and Linux compatibility.",
+	"version": "1.0.0",
+	"publisher": "ecostadelle",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ecostadelle/cython-syntax.git"
+	},
 	"engines": {
-		"vscode": "^1.0.0"
+		"vscode": "^1.75.0"
 	},
 	"categories": [
-		"Languages"
+		"Programming Languages"
 	],
 	"contributes": {
 		"languages": [
 			{
 				"id": "cython",
-				"aliases": [
-					"Cython",
-					"cython"
-				],
-				"extensions": [
-					".pyx",
-					".pxi",
-					".pxd"
-				],
+				"aliases": ["Cython", "cython"],
+				"extensions": [".pyx", ".pxi", ".pxd"],
 				"configuration": "./cython.configuration.json"
 			}
 		],
@@ -34,18 +31,7 @@
 			}
 		]
 	},
-	"__metadata": {
-		"id": "2145d811-2c3c-4b14-bd14-e32ff10bfa58",
-		"publisherId": "0a43731d-d0f8-4904-968d-53ffb4e97e10",
-		"publisherDisplayName": "Thomas Walther",
-		"targetPlatform": "undefined",
-		"isApplicationScoped": false,
-		"isPreReleaseVersion": false,
-		"hasPreReleaseVersion": false,
-		"installedTimestamp": 1718384801045,
-		"pinned": false,
-		"preRelease": false,
-		"source": "gallery",
-		"size": 145928
-	}
+	"keywords": ["cython", "syntax", "highlighting", "python"],
+	"author": "Ewerton Luiz Costadelle",
+	"license": "MIT"
 }
