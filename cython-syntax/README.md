@@ -13,7 +13,7 @@ This is an updated version of the Cython syntax highlighting extension by Thomas
 
 ## Installation
 
-1. Install the extension from the [VSCode Marketplace](https://marketplace.visualstudio.com/vscode).
+1. Install the extension from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=ecostadelle.cython-syntax-fixed).
 2. Alternatively, download the `.vsix` file from [Releases](https://github.com/ecostadelle/cython-syntax/releases) and install it manually:
    ```bash
    code --install-extension cython-syntax-fixed-1.0.0.vsix
