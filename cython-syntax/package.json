@@ -2,7 +2,7 @@
 	"name": "cython-syntax-fixed",
 	"displayName": "Cython Syntax Highlighting Fixed",
 	"description": "An updated version of the Cython syntax highlighting extension with bug fixes and Linux compatibility.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "ecostadelle",
 	"repository": {
 		"type": "git",
